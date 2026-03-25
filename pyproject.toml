@@ -1,0 +1,30 @@
+[project]
+
+name = "davidiscool"
+authors = [
+    {name = "David Liu", email = "david@cs.toronto.edu"},
+]
+description = "This is an example package for CSC271, used for teaching purposes."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy"
+]
+version = "0.0.1"
+license-files = ["LICENSE"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Topic :: Education",
+    "Programming Language :: Python :: 3"
+]
+
+[project.urls]
+
+Homepage = "https://github.com/david-yz-liu/davidiscool"
+Repository = "https://github.com/david-yz-liu/davidiscool.git"
+
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"

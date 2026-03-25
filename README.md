@@ -1,2 +1,3 @@
 # davidiscool
-An example Python package repository for CSC271
+
+An example Python package repository for CSC271.
